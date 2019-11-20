@@ -5,6 +5,7 @@ public class Product {
     int productPrice;
     Map<String, Integer> items = new HashMap();
 
+
     Product(String productName, int productPrice) {
         this.productName = productName;
         this.productPrice = productPrice;
